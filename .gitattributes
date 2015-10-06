@@ -1,0 +1,2 @@
+*.a filter=lfs diff=lfs merge=lfs -text
+Pod/Libraries/liblucene++.3.0.7.a filter=lfs diff=lfs merge=lfs -text
