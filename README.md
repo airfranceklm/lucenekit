@@ -17,7 +17,8 @@ LuceneKit is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "LuceneKit"
+pod 'LuceneKit',:git => 'https://github.com/afklm/lucenekit.git' 
+pod 'ofxiOSBoost',:git => 'https://github.com/afklm/ofxiOSBoost.git' 
 ```
 
 ## Author
