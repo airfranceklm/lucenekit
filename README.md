@@ -1,9 +1,6 @@
 # LuceneKit
 
 [![Build Status](https://img.shields.io/travis/afklm/lucenekit.svg?style=flat)](https://travis-ci.org/afklm/lucenekit)
-[![Version](https://img.shields.io/cocoapods/v/LuceneKit.svg?style=flat)](http://cocoapods.org/pods/LuceneKit)
-[![License](https://img.shields.io/cocoapods/l/LuceneKit.svg?style=flat)](http://cocoapods.org/pods/LuceneKit)
-[![Platform](https://img.shields.io/cocoapods/p/LuceneKit.svg?style=flat)](http://cocoapods.org/pods/LuceneKit)
 
 ## Usage
 
