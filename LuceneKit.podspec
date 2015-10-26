@@ -11,7 +11,9 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "Lucene++ Pod."
   s.description  = <<-DESC
-# This Pod embed Lucene++ lib
+# This Pod embed Lucene++ lib.
+# Lucene++ is an up to date C++ port of the popular Java Lucene library, a high-performance, 
+# full-featured text search engine.
                        DESC
 
   s.homepage         = "https://github.com/afklm/lucenekit.git"
