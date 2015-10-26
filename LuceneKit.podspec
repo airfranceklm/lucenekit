@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Libraries/Header/**/*.h'
   s.vendored_library = ['Pod/Libraries/liblucene++.3.0.7.a']
-  
+  s.library = 'z'
 end

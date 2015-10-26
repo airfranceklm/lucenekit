@@ -3,6 +3,7 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
+osx_image: xcode6.4
 # cache: cocoapods
 # podfile: Example/Podfile
 # before_install:
@@ -11,5 +12,5 @@ language: objective-c
 install:
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild test -workspace Example/LuceneKit.xcworkspace -scheme LuceneKit-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
+- set -o pipefail && cd Example && pod install && cd ..  && xcodebuild test -workspace Example/LuceneKit.xcworkspace -scheme LuceneKit-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty -c
 - pod lib lint --quick
