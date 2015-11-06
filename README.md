@@ -15,7 +15,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'LuceneKit',:git => 'https://github.com/afklm/lucenekit.git' 
-pod 'ofxiOSBoost',:git => 'https://github.com/afklm/ofxiOSBoost.git' 
+pod 'ofxiOSBoost', :podspec => 'https://raw.githubusercontent.com/afklm/ofxiOSBoost/master/ofxiOSBoost.podspec' 
 ```
 
 ## Author
