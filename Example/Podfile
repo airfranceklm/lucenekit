@@ -2,12 +2,12 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'LuceneKit_Example', :exclusive => true do
- pod 'ofxiOSBoost', :git => 'https://github.com/afklm/ofxiOSBoost.git'
+ pod 'ofxiOSBoost', :podspec => 'https://raw.githubusercontent.com/afklm/ofxiOSBoost/master/ofxiOSBoost.podspec'
  pod "LuceneKit", :path => "../"
 end
 
 
 target 'LuceneKit_Tests', :exclusive => true do
   pod "LuceneKit", :path => "../"
-  pod 'ofxiOSBoost', :git => 'https://github.com/afklm/ofxiOSBoost.git'
+  pod 'ofxiOSBoost', :podspec => 'https://raw.githubusercontent.com/afklm/ofxiOSBoost/master/ofxiOSBoost.podspec'
 end
